@@ -1,8 +1,9 @@
 import './login.css'
-import { useAuthState, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth'
+import { useAuthState, useSignInWithEmailAndPassword, useSignInWithGoogle } from 'react-firebase-hooks/auth'
 import auth from '../../firebase.init';
 import Header from '../header/Header';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
+import google from '../../img/google.png'
 
 const Login = () => {
 
@@ -11,6 +12,8 @@ const Login = () => {
     const [
         signInWithEmailAndPassword
     ] = useSignInWithEmailAndPassword(auth);
+
+    const [signInWithGoogle] = useSignInWithGoogle(auth);
 
     const [user] = useAuthState(auth);
 
@@ -41,7 +44,13 @@ const Login = () => {
                 <button className='loginButton' type="submit">Log In</button>
 
                 <p>You are new here? <Link to='/register'>Register Please !</Link> </p>
+
             </form>
+
+            <div className='signGoogle' onClick={() => signInWithGoogle()}>
+                <img src={google} alt="" width='25px' />
+                Sign In With Google
+            </div>
         </div>
 
     );
