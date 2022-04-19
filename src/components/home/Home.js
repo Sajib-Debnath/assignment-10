@@ -1,0 +1,24 @@
+import React from 'react';
+import Services from '../services/Services'
+import Banner from '../banner/Banner'
+import './home.css'
+import Header from '../header/Header';
+
+const Home = () => {
+    return (
+        <div>
+            <div className='banner-area'>
+                <Header />
+                <Banner />
+            </div>
+            <div className="service-area" id='#service'>
+                <h1> Choose Food</h1>
+                <Services />
+            </div>
+
+        </div>
+
+    );
+};
+
+export default Home;

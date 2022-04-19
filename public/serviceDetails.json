@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "serviceName": "Curry",
+        "img": "./imgs/img1.jpg",
+        "price": 180,
+        "serviceDetails": " Very Delicious"
+    },
+    {
+        "id": 2,
+        "serviceName": "Singara",
+        "img": "./imgs/img2.jpg",
+        "price": 10,
+        "serviceDetails": "Very Delicious"
+    },
+    {
+        "id": 3,
+        "serviceName": "Fuska",
+        "img": "./imgs/img3.jpg",
+        "price": 60,
+        "serviceDetails": "Very Delicious"
+    },
+    {
+        "id": 4,
+        "serviceName": "Rui",
+        "img": "./imgs/img4.jpg",
+        "price": 80,
+        "serviceDetails": "abc"
+    },
+    {
+        "id": 5,
+        "serviceName": "Misti",
+        "img": "./imgs/img5.jpg",
+        "price": 140,
+        "serviceDetails": "abc"
+    },
+    {
+        "id": 6,
+        "serviceName": "Pitha",
+        "img": "./imgs/img6.jpg",
+        "price": 100,
+        "serviceDetails": "abc"
+    }
+]

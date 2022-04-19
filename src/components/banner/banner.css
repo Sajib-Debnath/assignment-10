@@ -1,0 +1,9 @@
+.banner div {
+    max-width: 85%;
+    margin: 0 auto;
+    color:greenyellow;
+}
+
+.banner div h5{
+    width: 50%;
+}

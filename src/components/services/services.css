@@ -1,0 +1,8 @@
+.services{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 80px;
+    max-width: 85%;
+    margin: 0 auto;
+    padding: 50px 20px;
+}

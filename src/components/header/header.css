@@ -1,0 +1,27 @@
+
+
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 85%;
+    margin: 0 auto;
+    padding: 18px;
+
+}
+
+.header a {
+    text-decoration: none;
+    color: rgb(162, 47, 207);
+    font-size: 1.5rem;
+}
+
+.links a {
+    margin-right: 15px;
+}
+.logoutButton{
+    border: none;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    color: rgb(162, 47, 207);
+    font-size: 1.5rem;
+}
